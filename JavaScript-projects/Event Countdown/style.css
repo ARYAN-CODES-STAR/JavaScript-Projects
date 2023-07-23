@@ -1,0 +1,38 @@
+body{
+    color: orange;
+    width: 100vh;
+    height: 100vh;
+    background: hsla(198, 65%, 34%, 1);
+
+background: linear-gradient(135deg, hsla(198, 65%, 34%, 1) 8%, hsla(136, 53%, 43%, 1) 19%, hsla(45, 97%, 50%, 1) 52%, hsla(5, 81%, 56%, 1) 98%, hsla(178, 44%, 32%, 1) 100%);
+
+background: -moz-linear-gradient(135deg, hsla(198, 65%, 34%, 1) 8%, hsla(136, 53%, 43%, 1) 19%, hsla(45, 97%, 50%, 1) 52%, hsla(5, 81%, 56%, 1) 98%, hsla(178, 44%, 32%, 1) 100%);
+
+background: -webkit-linear-gradient(135deg, hsla(198, 65%, 34%, 1) 8%, hsla(136, 53%, 43%, 1) 19%, hsla(45, 97%, 50%, 1) 52%, hsla(5, 81%, 56%, 1) 98%, hsla(178, 44%, 32%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#1E6C8E", endColorstr="#34A853", GradientType=1 );
+    background-repeat: no-repeat;
+}
+h1{
+    color: rgb(252, 251, 250);
+}
+
+.countdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.timer {
+    position: relative;
+    width: 300px;
+    color: rgb(20, 7, 2);
+    background-color: #e79715;
+    border: 5px solid #c11313;
+    padding: 20px;
+    margin: 10px;
+    font-size: 3rem;
+    min-width: 100px;
+    border-radius: 45px;
+}
