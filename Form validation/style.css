@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: 20%;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+}
+#name{
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+}
+#email{
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+}
+#password{
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+}
+#submit{
+    padding: 10px;
+    background-color: yellow;
+    border-radius: 5px 5px;
+}
+#heading{
+    color:bisque;
+    text-align: center;
+}
